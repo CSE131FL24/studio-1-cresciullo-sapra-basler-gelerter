@@ -9,13 +9,14 @@ public class Ordered {
 	 */
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.println("Value for x?");
+		System.out.println("Pick a first number");
 		int x = in.nextInt();
-		System.out.println("Value for y?");
+		System.out.println("Pick a second number");
 		int y = in.nextInt();
-		System.out.println("Value for z?");
+		System.out.println("Pick a third number");
 		int z = in.nextInt();
-
+		boolean isOrdered = (x < y && y < z);
+		System.out.println(isOrdered);
 	}
 
 }

@@ -8,6 +8,7 @@ public class Hello {
 		Scanner in = new Scanner(System.in);
 		
 		System.out.println("How are you feeling today?");
+		System.out.println("Good");
 		String mood = in.nextLine();
 		
 		System.out.println("Hello and welcome to CSE 131!");
@@ -15,3 +16,4 @@ public class Hello {
 	}
 
 }
+ 
